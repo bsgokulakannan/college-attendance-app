@@ -1,0 +1,19 @@
+attendance-app/
+├── build.gradle.kts (Project Level)
+└── app/
+    ├── build.gradle.kts (App Level)
+    └── src/
+        └── main/
+            ├── AndroidManifest.xml
+            └── java/
+                └── com/
+                    └── example/
+                        └── attendance/
+                            ├── MainActivity.kt
+                            ├── model/
+                            │   └── Models.kt
+                            └── ui/
+                                ├── LoginScreen.kt
+                                ├── StudentDashboard.kt
+                                ├── StaffClassPinScreen.kt
+                                └── AdminPanel.kt
